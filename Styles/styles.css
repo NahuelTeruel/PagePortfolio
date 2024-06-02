@@ -4,9 +4,10 @@
 /* Definición de colores */
 :root {
     --color-primario: #6e06f2;
-    --color-secundario: #000000;
+    --color-secundario: #1e1d1d;
     --text-color: #777e90;
     --background-color: #ffffff;
+    --color-seleccion: #8c4ddf;
 }
 /* Seteo */
 * {
@@ -34,6 +35,8 @@ header {
     position: sticky;
     z-index: 1000;
 }
+
+/* Sección barra de navegación */
 
 .logo {
     flex: 0.16;
@@ -93,3 +96,120 @@ header {
     color: var(--color-primario);
 }
 
+/* Sección de Inicio */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.intro-texto {
+    max-width: 50%;
+}
+
+.intro-texto .logo {
+    font-size: 24px;
+    color: var(--color-secundario);
+    margin-bottom: 10px;
+}
+
+.saludo {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.intro-texto h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-secundario);
+    margin-bottom: 20px;
+}
+
+.intro-texto .destacado {
+    color: var(--color-primario);
+}
+
+.intro-texto p {
+    font-size: 18px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 7px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.5s;
+}
+
+.btn-contacto {
+    background-color: var(--color-secundario);
+    color: var(--background-color);
+}
+
+.btn-contacto:hover {
+    background-color: var(--color-primario);
+}
+
+.btn-proyectos {
+    background-color: var(--background-color);
+    color: var(--color-secundario);
+    border: 2px solid var(--color-secundario);
+}
+
+.btn-proyectos:hover {
+    background-color: var(--color-secundario);
+    color: var(--background-color);
+    border: 2px solid var(--background-color);
+}
+
+.intro-imagen {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-imagen img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 10%;
+    border: 1px solid var(--color-primario);
+}
+
+h1 {
+    font-size: 90px;
+    color: var(--color-secundario);
+    line-height: 1;
+}
+
+.txt-intro {
+    display: block;
+    padding: 30px 0;
+    font-size: 24px;
+    line-height: 1.2;
+}
