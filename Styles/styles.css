@@ -39,7 +39,7 @@ header {
 /* Sección barra de navegación */
 
 .logo {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 800;
     text-decoration: none;
     flex: 0.16;
@@ -101,7 +101,7 @@ header {
 
 /* Sección de Inicio */
 
-.container {
+.seccion {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -121,34 +121,13 @@ header {
     width: 100%;
 }
 
-.intro-texto {
-    max-width: 50%;
-}
-
-.intro-texto .logo {
-    font-size: 24px;
-    color: var(--color-secundario);
-    margin-bottom: 10px;
-}
-
 .saludo {
     font-size: 24px;
     font-weight: 500;
     color: var(--text-color);
 }
 
-.intro-texto h1 {
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--color-secundario);
-    margin-bottom: 20px;
-}
-
-.intro-texto .destacado {
-    color: var(--color-primario);
-}
-
-.intro-texto p {
+p {
     font-size: 18px;
     color: var(--text-color);
     margin-bottom: 30px;
@@ -211,8 +190,41 @@ h1 {
 }
 
 .txt-intro {
-    display: block;
-    padding: 30px 0;
+    display: flex;
+    padding-top: 30px;
     font-size: 24px;
     line-height: 1.2;
 }
+
+.seccion{
+    display: block;
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-secundario);
+    margin-bottom: 20px;
+}
+
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.img-lugar {
+    border-radius: 30px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: var(--color-secundario);
+}
+
+.txt-about {
+    border-left: solid 5px var(--color-primario);
+    padding-left: 10px;
+}
+
