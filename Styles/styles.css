@@ -349,3 +349,50 @@ h3 {
 .icon:hover .fa-circle-arrow-up{
     color: var(--text-color);
 }
+
+
+.service {
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.service-number{
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.service-line {
+    width: 4px;
+    background-color: var(--color-primario);
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    z-index: -1;
+    margin-right: 10px;
+}
+
+.service-content {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 60px;
+    position: relative;
+}
+
+.service-number {
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.service-info {
+    max-width: 600px;
+}
+
+.service-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--color-primario);
+}
+
