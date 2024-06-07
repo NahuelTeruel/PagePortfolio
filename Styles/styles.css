@@ -303,34 +303,43 @@ h3 {
     gap: 20px;
 }
 
-.project-item {
+
+.project-item-a {
+    background-color: var(--background-color);
     border-radius: 10px;
     overflow: hidden;
-    width: 300px;
-    margin-bottom: 20px;
-    padding: 20px;
-    text-align: left;
-    position: relative;
+    flex: 300px;
+    margin: 10px;
 }
 
-.project-item img {
-    width: 100%;
-    height: auto;
+.project-item-b {
+    background-color: var(--background-color);
     border-radius: 10px;
+    overflow: hidden;
+    flex: 500px;
+    margin: 10px;
+}
+.project-item-a img,
+.project-item-b img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-.project-item a {
+.project-item-a a,
+.project-item-b a {
     font-size: 24px;
     margin: 20px 0 10px;
     display: flex;
     align-items: center;
-    color: #000;
+    color: var(--color-secundario);
 }
 
-
-.project-item p {
+.project-item-a p,
+.project-item-b p {
     font-size: 16px;
-    color: #555;
 }
 
 .fa-circle-arrow-up {
