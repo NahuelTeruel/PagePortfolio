@@ -4,8 +4,8 @@
 /* Definición de colores */
 :root {
     --color-primario: #6e06f2;
-    --color-secundario: #1e1d1d;
-    --text-color: #777e90;
+    --color-secundario: #24262F;
+    --text-color: #4E525A;
     --background-color: #ffffff;
     --color-seleccion: #8c4ddf;
 }
@@ -346,7 +346,7 @@ h3 {
     color: var(--background-color);
     background-color: var(--color-primario);
     rotate: 45deg;
-    margin: 5px;
+    margin-left: 15px;
 }
 
 .icon {
