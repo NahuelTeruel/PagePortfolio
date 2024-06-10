@@ -88,7 +88,7 @@ header {
     width: 20px;
 }
 
-.circulo{
+.circulo-contact{
     display: flex;
     align-items: center;
     justify-items: center;
@@ -97,7 +97,7 @@ header {
     border-radius: 50px;
 }
 
-.circulo:hover{
+.circulo-contact:hover{
     background-color: #777e90;
     cursor: pointer;
 }
@@ -324,13 +324,14 @@ h3 {
     overflow: hidden;
 }
 
-.w-300{
-    width: 40%;
+
+.item-tipo-a {
+    width: 58%;
     margin-bottom: 30px;
 }
 
-.w-500 {
-    width: 58%;
+.item-tipo-b{
+    width: 40%;
     margin-bottom: 30px;
 }
 
@@ -695,4 +696,9 @@ footer {
 
 .footer-text .heart {
     color: var(--color-primario);
+}
+
+/* Responsive */
+.mi-clase {
+    display: none;
 }
