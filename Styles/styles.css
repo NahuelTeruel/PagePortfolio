@@ -283,7 +283,7 @@ h2 {
 .skills-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .skills-column {
