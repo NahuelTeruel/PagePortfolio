@@ -324,7 +324,6 @@ h3 {
     overflow: hidden;
 }
 
-
 .item-tipo-a {
     width: 58%;
     margin-bottom: 30px;
@@ -479,7 +478,6 @@ h3 {
     flex-flow: column;
     height: auto;
     overflow: hidden;
-    padding: 10px 0px 128px;
     position: relative;
     width: 1px;
 }
