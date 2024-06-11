@@ -2,9 +2,6 @@
 }
 
 @media(max-width:1280px){
-    .btn{
-        font-weight: 400;
-    }
     h1{
         font-size: 60px;
     }
@@ -108,7 +105,7 @@
         letter-spacing: -0.5px;
     }
     .intro-imagen{
-        height: 450px;
+        margin-top: 20px;
     }
     .intro-imagen img{
         height: 400px;
@@ -176,10 +173,10 @@
     .footer-nav a{
         font-size: 18px;
     }
-    .footer-social a{
+    /* .footer-social a{
         height: 24px;
         width: 24px;
-    }
+    } */
     .redes{
         font-size: 24px;
     }
@@ -189,9 +186,6 @@
     .btn{
         font-size: 14px;
         font-weight: 600;
-    }
-    .btn-contacto{
-        width: 120px;
     }
     .btn-proyectos{
         width: 160px;
@@ -205,9 +199,82 @@
 }
 
 @media(max-width:480px){
-
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .seccion{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2, .saludo{
+        font-size: 26px;
+    }
+    h3, .txt-intro{
+        font-size: 16px;
+    }
+    .intro-imagen img{
+        height: 250px;
+        width: 250px;
+    }
+    li, p, .project-item p, .contact-form label{
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.5px;
+    }
+    .about-stack img{
+        height: 90px;
+        width: 110px;
+        border-radius: 10px;
+    }
+    .img-lugar{
+        height: 90px;
+        width: 210px;
+        border-radius: 10px;
+    }
+    .project-item img{
+        height: 200px;
+    }
+    .project-item a, .project-item i{
+        font-size: 16px;
+    }
+    .service-number{
+        font-size: 24px;
+    }
+    .service-name {
+        font-size: 18px;
+    }
+    .footer-nav a{
+        font-size: 12px;
+    }
+    .redes, .question{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
 
 @media(max-width:320px){
-    
+    .intro-imagen img{
+        height: 150px;
+        width: 150px;
+    }
+    .about-stack img{
+        height: 70px;
+        width: 95px;
+        border-radius: 10px;
+    }
+    .img-lugar{
+        height: 70px;
+        width: 180px;
+        border-radius: 10px;
+    }
+    .project-item img{
+        height: 100px;
+    }
 }

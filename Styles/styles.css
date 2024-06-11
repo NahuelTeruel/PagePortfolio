@@ -485,6 +485,10 @@ h3 {
     color: var(--text-color);
 }
 
+.footer-social a:hover{
+    color: var(--color-primario);
+}
+
 .redes{
     font-size: 24px;
 }
