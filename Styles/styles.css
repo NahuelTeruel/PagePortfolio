@@ -383,56 +383,38 @@ h3 {
 }
 
 .services-container {
-    place-content: center;
     align-items: center;
     display: flex;
-    flex: 0 0 auto;
     flex-flow: column;
     gap: 20px;
-    height: auto;
-    overflow: hidden;
     padding: 25px 0px 96px;
-    position: relative;
     width: 100%;
 }
 
 .service {
-    place-content: flex-start;
     align-items: flex-start;
     display: flex;
-    flex: 0 0 auto;
-    flex-flow: row;
     gap: 48px;
-    height: auto;
-    overflow: hidden;
-    padding: 0px;
-    position: relative;
     width: 100%;
-    z-index: 1;
 }
 
 .service-progress {
-    place-content: center;
     align-items: center;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column;
     gap: 10px;
-    height: auto;
-    overflow: hidden;
-    padding: 0px;
-    position: relative;
     width: 100px;
 }
 
-.number-container {
+/* .number-container {
     outline: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
-}
+} */
 
 .service-number {
     font-family: "Poppins", "Poppins Placeholder", sans-serif;
@@ -442,7 +424,7 @@ h3 {
     color: var(--color-secundario);
 }
 
-.line.container {
+/* .line.container {
     place-content: center;
     align-items: center;
     background-color: var(--background-color);
@@ -455,39 +437,22 @@ h3 {
     padding: 0px;
     position: relative;
     z-index: 0;
-}
+} */
 
 .service-line {
     background-color: var(--color-primario);
-    top: 0;
-    bottom: 0;
-    left: 0px;
-    z-index: -1;
-    flex: 0 0 auto;
     height: 20vh;
-    overflow: hidden;
-    position: relative;
     width: 3px;
 }
 
 .service-container {
-    place-content: flex-start center;
-    align-items: flex-start;
     display: flex;
     flex: 1 0 0px;
     flex-flow: column;
-    height: auto;
-    overflow: hidden;
-    position: relative;
     width: 1px;
 }
 
 .service-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    transform: none;
     width: 80%;
 }
 
@@ -497,22 +462,16 @@ h3 {
     font-family: "Poppins", "Poppins Placeholder", sans-serif;
     font-weight: 700;
     color: var(--color-primario);
-    outline: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    transform: none;
     margin-bottom: 15px;
 }
 
-footer {
+/* footer {
     flex: none;
     height: auto;
     max-width: 1300px;
     position: relative;
     width: 100%;
-}
+} */
 
 .footer-content {
     display: grid;
@@ -520,56 +479,25 @@ footer {
     grid-auto-rows: minmax(0, 1fr);
     grid-template-columns: repeat(2, minmax(200px, 1fr));
     grid-template-rows: repeat(2, minmax(0, 1fr));
-    justify-content: center;
-    overflow: hidden;
     padding: 10px 0;
-    position: relative;
 }
 
 .footer-nav {
-    align-content: flex-start;
     align-items: flex-start;
-    align-self: start;
     display: flex;
-    flex: none;
     flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 10px;
-    height: 100%;
     justify-content: center;
-    justify-self: start;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-    width: 100%;
 }
 
 .footer-nav-content {
-    align-content: center;
-    align-items: center;
     display: flex;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
     gap: 25px;
-    height: min-content;
-    justify-content: center;
-    overflow: visible;
-    padding: 0;
-    position: relative;
-    width: min-content;
 }
 
 .footer-nav a {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: flex-start;
-    position: relative;
-    width: 100%;
 }
 
 .footer-nav a:hover {
@@ -577,29 +505,15 @@ footer {
 }
 
 .footer-social {
-    align-content: center;
     align-items: center;
-    align-self: start;
     display: flex;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
     gap: 25px;
-    height: 100%;
     justify-content: flex-end;
-    justify-self: start;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-    width: 100%;
 }
 
 .footer-social a {
-    flex: none;
     height: 24px;
     width: 24px;
-    position: relative;
-    text-decoration: none;
     color: var(--text-color);
 }
 
@@ -608,24 +522,13 @@ footer {
 }
 
 .footer-contact{
-    align-content: flex-start;
-    align-items: flex-start;
-    align-self: start;
     display: flex;
-    flex: none;
     flex-direction: column;
-    flex-wrap: nowrap;
     gap: 20px;
-    height: 100%;
-    justify-content: center;
-    justify-self: start;
-    overflow: hidden;
     padding: 0 0 20px;
-    position: relative;
-    width: 100%;
 }
 
-.contact-text {
+/* .contact-text {
     outline: none;
     display: flex;
     flex-direction: column;
@@ -633,7 +536,7 @@ footer {
     flex-shrink: 0;
     transform: none;
     opacity: 1;
-}
+} */
 
 .question {
     font-family: "Poppins", "Poppins Placeholder", sans-serif;
@@ -642,7 +545,7 @@ footer {
     color: var(--text-color);
 }
 
-.footer-btn {
+/* .footer-btn {
     align-content: center;
     align-items: center;
     display: flex;
@@ -656,33 +559,17 @@ footer {
     padding: 0;
     position: relative;
     width: min-content;
-}
+} */
 
 .footer-text {
-    align-content: flex-end;
-    align-items: flex-end;
-    align-self: start;
     display: flex;
-    flex: none;
     flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 0px;
-    height: 100%;
     justify-content: center;
-    justify-self: start;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-    width: 100%;
 }
 
 .footer-info {
-    outline: none;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    flex-shrink: 0;transform: none;
-    opacity: 1;
 }
 
 .footer-text p {
