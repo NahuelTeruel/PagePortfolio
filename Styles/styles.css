@@ -149,11 +149,12 @@ p {
     padding: 7px 15px;
     border-radius: 8px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
     font-size: 14px;
     font-weight: 700;
     transition: background-color 0.5s;
     height: 40px;
-    text-align: center;
 }
 
 .btn-contacto {
