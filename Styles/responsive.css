@@ -257,15 +257,20 @@
         font-weight: 400;
         letter-spacing: -0.5px;
     }
+    .about-content{
+        flex-direction: column;
+    }
     .about-stack img{
-        height: 90px;
-        width: 110px;
-        border-radius: 10px;
+        height: 180px;
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 50px;
     }
     .img-lugar{
-        height: 90px;
-        width: 210px;
-        border-radius: 10px;
+        height: 180px;
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 50px;
     }
     .project-item img{
         height: 200px;
@@ -274,39 +279,90 @@
         font-size: 16px;
     }
     .service-number{
-        font-size: 24px;
+        font-size: 28px;
     }
     .service-name {
         font-size: 18px;
     }
+
+    .service-progress{
+        width: 10px;
+    }
+
+    .service-line {
+        height: 18vh;
+    }
+    .service-info {
+        width: 100%;
+    }
+
+    .contact-form{
+        margin-bottom: 16px;
+        font-size: 12px;
+    }
+    .contact-form label {
+        font-size: 14px;
+    }
+    .contact-form .short-input {
+        width: 260px;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 0.2em;
+    }
+
     .footer-nav a{
         font-size: 12px;
     }
     .redes, .question{
         font-size: 16px;
     }
-    .btn{
-        font-size: 14px;
-        font-weight: 400;
-    }
 }
 
 @media(max-width:320px){
+    body{
+        margin: 0;
+    }
+    h2, .saludo {
+        font-size: 24px;
+        letter-spacing: -2px;
+        font-weight: 400;
+    }
+    .titulo{
+        font-size: 58px;
+    }
+    h3, .txt-intro {
+        font-size: 18px;
+    }
+    .buttons{
+        gap: 10px;
+    }
     .intro-imagen img{
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
+        margin-top: 70px;
     }
     .about-stack img{
-        height: 70px;
-        width: 95px;
+        height: 100%;
+        width: 100%;
         border-radius: 10px;
     }
     .img-lugar{
-        height: 70px;
-        width: 180px;
+        height: 100%;
+        width: 100%;
         border-radius: 10px;
     }
     .project-item img{
         height: 100px;
+    }
+    
+    .footer-nav-content{
+        gap: 8px;
+    }
+    .redes{
+        font-size: 24px;
+    }
+    .footer-contact {
+        align-items: center;
     }
 }
