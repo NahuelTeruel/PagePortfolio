@@ -199,10 +199,6 @@
     .footer-nav a{
         font-size: 18px;
     }
-    /* .footer-social a{
-        height: 24px;
-        width: 24px;
-    } */
     .redes{
         font-size: 24px;
     }
@@ -355,7 +351,7 @@
     .project-item img{
         height: 100px;
     }
-    
+
     .footer-nav-content{
         gap: 8px;
     }
