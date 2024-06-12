@@ -15,6 +15,12 @@
 }
 
 @media(max-width:1280px){
+    body{
+        padding: 0 10px;
+    }
+    #home {
+        min-height: 75vh;
+    }
     h1{
         font-size: 60px;
     }
@@ -37,17 +43,17 @@
         font-size: 0.8em;
     }
     .footer-nav a{
-        font-size: 14px;
+        font-size: 17px;
     }
     .footer-social a{
-        height: 14px;
-        width: 14px;
+        height: 20px;
+        width: 20px;
     }
     .redes{
-        font-size: 19px;
+        font-size: 20px;
     }
     .question{
-        font-size: 17px;
+        font-size: 20px;
     }
     .btn{
         font-size: 12px;
@@ -60,7 +66,7 @@
         width: 140px;
     }
     .footer-text p{
-        font-size: 13px;
+        font-size: 16px;
     }
 }
 
@@ -105,6 +111,9 @@
     .logo{
         justify-content: start;
     }
+    .titulo{
+        font-size: 60px;
+    }
     .mi-clase{
         display: block;
     }
@@ -142,6 +151,10 @@
 
     .skills-container{
         flex-direction:column;
+    }
+
+    ul {
+        margin-bottom: 20px;
     }
     
     .img-lugar{
@@ -206,6 +219,11 @@
     .footer-text p{
         font-size: 13px;
     }
+
+    .footer-info{
+        align-items: center;
+    }
+
     .footer-content .buttons{
         justify-content: center;
     }
@@ -230,8 +248,9 @@
         font-size: 16px;
     }
     .intro-imagen img{
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
+        margin-top: 30px;
     }
     li, p, .project-item p, .contact-form label{
         font-size: 15px;
